@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+
+  <title>Feodal</title>
+
+  <!-- Facebook -->
+  <meta property="description" content="">
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+<link rel="shortcut icon" href="favicon.png"></head>
+
+<body>
+  <div id="map"></div>
+
+  <div class="search-panel" style="display: none;">
+    <select class="select-search">
+      <option value="cadastr" class="select-search-cadastr" title="" selected></option>
+      <option value="google" class="select-search-google" title="">Google</option>
+    </select>
+  </div>
+
+  <div class="search-cadastre" style="display: none;">
+    <div class="search-box">
+      <input type="text" class="map_search" name="map_search" />
+      <!-- <input type="hidden" name="get_serach_cadnum" value="" id="get_serach_cadnum" /> -->
+      <button type="button" class="map_search_btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+    </div>
+  </div>
+
+  <div class="language-panel" style="display: none;">
+    <select class="select-language">
+      <option value="ua">UA</option>
+      <option value="ru">RU</option>
+    </select>
+  </div>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1j7bxeM7gNmU0synoEHGk2LGm1OqmylI&language=uk&region=UA&country=UA&libraries=places">
+  </script>
+
+  <!-- <script>
+    var script = document.createElement('script');
+    var query = '?key=AIzaSyA1j7bxeM7gNmU0synoEHGk2LGm1OqmylI&libraries=places&callback=init';
+    var langCode = 'ru';
+
+    if (langCode) {
+      query += '&language=' + langCode;
+    }
+    var regionCode = 'RU'.toUpperCase();
+    if (regionCode) {
+      query += '&region=' + regionCode;
+    }
+    script.src = 'https://maps.googleapis.com/maps/api/js' + query;
+    script.setAttribute('async', '');
+    script.setAttribute('defer', '');
+    document.head.appendChild(script);
+  </script> -->
+<script type="text/javascript" src="main.ed14fad405ad2be127a5.js"></script></body>
+
+</html>
